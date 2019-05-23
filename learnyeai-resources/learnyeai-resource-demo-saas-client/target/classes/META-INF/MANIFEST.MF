@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: learnyeai-resource-demo-saas-client
+Implementation-Version: v1
+Built-By: wangqi
+Implementation-Vendor-Id: com.learnyeai.resources
+Build-Jdk: 1.8.0_161
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/jovany-dependencies/jovany-boot-dependencies/jovany
+ -cloud/learnyeai/learnyeai-resources/learnyeai-resource-demo-saas-cli
+ ent
+Created-By: Maven Integration for Eclipse
+

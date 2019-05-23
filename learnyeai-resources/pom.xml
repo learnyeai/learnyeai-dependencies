@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.learnyeai</groupId>
+		<artifactId>learnyeai</artifactId>
+		<version>v1</version>
+	</parent>
+	<groupId>com.learnyeai.resources</groupId>
+	<artifactId>learnyeai-resources</artifactId>
+	<packaging>pom</packaging>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>learnyeai-resources</groupId>
+				<artifactId>learnyeai-resource-demo-saas-client</artifactId>
+				<version>v1</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<modules>
+		<module>learnyeai-resource-demo-saas-client</module>
+	</modules>
+</project>
